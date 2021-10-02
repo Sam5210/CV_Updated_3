@@ -119,7 +119,7 @@ h1{
     font-family: "Tangerine", serif;
 }
 .home-page-h1, .CV-page-h1{
-    color: goldenrod;
+    color: aqua;
     font-weight: bold;
     font-size: 7rem;
 }
@@ -208,8 +208,8 @@ p{
 .skillset{
     text-decoration: underline;
 }
-.text-aqua{
-    color: aqua;
+.text-yellow{
+    color: yellow;
 }
 .text-white{
     color:white;
@@ -258,7 +258,7 @@ p{
     padding: 7% 0%;
 }
 .white-background{
-    padding: 10% 7%;
+    padding: 5% 7%;
     background-color: white;
 }
 @keyframes expand {
@@ -291,6 +291,9 @@ p{
     li, .intro_paragraph, p{
         font-size: 80%;
         line-height: 1.5;
+    }
+    .intro_paragraph{
+        color: orangered;
     }
     .home-page-h1, .CV-page-h1{
         font-size: 230%;
