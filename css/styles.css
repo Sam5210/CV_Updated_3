@@ -176,8 +176,11 @@ li{
     list-style: none;
 }
 .lightblue-background{
-    padding: 20% 7%;
+    padding: 10% 7%;
     background-color: cornflowerblue;
+}
+.main-page-intro{
+    padding: 0% 5%;
 }
 .moccasin-background{
     padding: 5% 7%;
@@ -267,7 +270,7 @@ p{
     padding: 15% 0%;
 }
 .white-background{
-    padding: 20% 7%;
+    padding: 10% 7%;
     background-color: white;
 }
 @keyframes expand {
@@ -316,6 +319,12 @@ p{
         font-size: 90%;
         line-height: 1;
     }
+    .hillside-background{
+        background-color: orange;
+    }
+    .lightblue-background{
+        padding-top: 20%;
+    }
     #red-black-tree{
         float:none;
         margin-bottom: 10%;
@@ -349,8 +358,8 @@ p{
     .valley-background{
         background-color: moccasin;
     }
-    .hillside-background{
-        background-color: orange;
+    .white-background{
+        padding-top: 20%;
     }
     .lake-background, .river-background{
         background-color: skyblue;
