@@ -176,7 +176,7 @@ li{
     list-style: none;
 }
 .lightblue-background{
-    padding: 3% 7%;
+    padding: 20% 7%;
     background-color: cornflowerblue;
 }
 .moccasin-background{
@@ -264,10 +264,10 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding: 7% 0%;
+    padding: 15% 0%;
 }
 .white-background{
-    padding: 5% 7%;
+    padding: 20% 7%;
     background-color: white;
 }
 @keyframes expand {
