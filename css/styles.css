@@ -27,6 +27,23 @@ body{
     width: 40%;
     height: auto;
 }
+.clickable{
+    margin: 3% 7%;
+    padding: 5% 2%;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 0.12rem;
+    border-radius: 1rem;
+    max-width: 1730px;
+    width: auto;
+}
+.clickable:hover{
+    cursor: pointer;
+    animation-name: expand;
+    animation-duration: 0.3s;
+    background-color: royalblue;
+    transition: 0.3s;
+}
 .cloud_left{
     position: absolute;
     top: 5%;
@@ -61,10 +78,6 @@ body{
     max-width: 1730px;
     width: auto;
 }
-.CV_container{
-    background-color: skyblue;
-    padding: 3%;
-}
 .custom_container, #container1, .CV_container, #Car-Ford-GT, .icon{
     position: relative;
     border-radius: 1rem;
@@ -72,25 +85,15 @@ body{
 .custom_container, #container1, .CV_container{
     margin: 4%;
 }
-.clickable{
-    margin: 3% 7%;
-    padding: 5% 2%;
-    border-color: aqua;
-    border-style: solid;
-    border-width: 0.12rem;
-    border-radius: 1rem;
-    max-width: 1730px;
-    width: auto;
-}
-.clickable:hover{
-    cursor: pointer;
-    animation-name: expand;
-    animation-duration: 0.3s;
-    background-color: royalblue;
-    transition: 0.3s;
-}
 #container1{
     background-color: moccasin;
+}
+.CV_container{
+    background-color: skyblue;
+    padding: 3%;
+}
+.CV-page-h1, .CV-page-h2{
+    color: aqua;
 }
 #footer{
     line-height: 1.5;
@@ -123,7 +126,6 @@ h1{
     font-family: "Tangerine", serif;
 }
 .home-page-h1, .CV-page-h1{
-    color: aqua;
     font-weight: bold;
     font-size: 7rem;
 }
@@ -131,10 +133,12 @@ h2{
     font-family: "Tangerine", serif;
 }
 .home-page-h2, .CV-page-h2{
-    color: orangered;
     font-size: 4.5rem;
     font-weight: bold;
     line-height: 0.9;
+}
+.home-page-h1, .home-page-h2{
+    color: orangered;
 }
 h3{
     color: orangered;
@@ -305,7 +309,7 @@ p{
         line-height: 1.5;
     }
     .intro_paragraph{
-        color: orangered;
+        color: black;
     }
     .home-page-h1, .CV-page-h1{
         font-size: 230%;
