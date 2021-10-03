@@ -298,8 +298,12 @@ p{
     100% {transform:translateX(0);}
 }
 @media (max-width: 1280px){
-    .video-game-text{
-        text-align: center;
+    #Car-Ford-GT{
+        float:none;
+        margin-bottom: 5%;
+        max-width: 30rem;
+        width: 80%;
+        height: auto;
     }
     img.skills-icons{
         width: 30%;
@@ -337,23 +341,22 @@ p{
         height: auto;
         width: auto;
     }
-    #Car-Ford-GT{
-        float:none;
-        margin-bottom: 5%;
-        max-width: 30rem;
-        width: 40%;
-        height: auto;
+    .skill{
+        font-size: 75%;
     }
     #Video-Game-Project-Icon{
         float: none;
         left: 0;
         margin-bottom: 5%;
         max-width: 40rem;
-        width: 60%;
+        width: 85%;
         height: auto;
         margin-left: 0;
         margin-right: 0;
         border-radius: 1rem;
+    }
+    .video-game-text{
+        text-align: center;
     }
     td{
         font-size: 70%;
